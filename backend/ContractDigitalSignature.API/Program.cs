@@ -16,7 +16,7 @@ app.UseHttpsRedirection();
 
 var summaries = new[]
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Rainy", "Cloudy", "Sunny", "Foggy", "Hazy", "Smoggy", "Windy", "Snowy", "Icy", "Thunderstorm", "Hurricane", "Tornado", "Blizzard", "Flood", "Wildfire", "Earthquake", "Volcano", "Tsunami", "Hurricane", "Tornado", "Blizzard", "Flood", "Wildfire", "Earthquake", "Volcano", "Tsunami"
 };
 
 app.MapGet("/weatherforecast", () =>
