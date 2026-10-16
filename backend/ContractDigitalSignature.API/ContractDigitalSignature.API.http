@@ -1,6 +1,0 @@
-@ContractDigitalSignature.API_HostAddress = http://localhost:5235
-
-GET {{ContractDigitalSignature.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
