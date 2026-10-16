@@ -1,0 +1,16 @@
+@HostAddress = http://localhost:5235
+
+GET {{HostAddress}}/api/roles?search=quan&page=1&pageSize=10
+Accept: application/json
+
+###
+
+POST {{HostAddress}}/api/roles
+Content-Type: application/json
+
+{
+  "name": "Quản trị",
+  "description": "Toàn quyền"
+}
+
+###
